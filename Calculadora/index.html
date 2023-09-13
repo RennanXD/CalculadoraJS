@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <section>
+        <div id="caixa1">Digite o primeiro numero<input type="number" id="n1"></div>
+        <br>
+        <div id="caixa2">Digite o segundo numero<input type="number" id="n2"></div>
+        <br>
+        <h2>Escolha qual operação deseja fazer</h2>
+        <button id="soma"onclick="somar()">Somar</button>
+        <button id="sub" onclick="subtrair()">Subtração</button>
+        <button id="mult"onclick="multiplicacao()">Multiplicação</button>
+        <button id="divi"onclick="divisao()">Divisão</button>
+    </section>
+    <br>
+    <div id="res">O Resultado é <span></span></div>
+    <script>
+    var n1 = document.querySelector('#n1')
+    var n2 = document.querySelector('#n2')
+    var resultado = document.querySelector('span')
+
+function somar(){
+    resultado.innerHTML = parseInt(n1.value) + parseInt(n2.value)
+  }
+
+  function subtrair(){
+    resultado.innerHTML = parseInt(n1.value) - parseInt(n2.value)
+  }
+
+  function multiplicacao(){
+    resultado.innerHTML = parseInt(n1.value) * parseInt(n2.value)
+  }
+
+  function divisao(){
+    resultado.innerHTML = parseInt(n1.value) / parseInt(n2.value)
+  }
+    </script>
+</body>
+</html>

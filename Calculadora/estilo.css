@@ -1,0 +1,95 @@
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(45deg, violet,purple);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+section{
+    font-family: sans-serif;
+    border-radius: 10px 10px;
+    /*box-shadow: 3px 6px 7px rgba(0, 0, 0, 0.384);*/
+    padding: 5px;
+    text-align: center;
+}
+
+section > #caixa1{
+    margin-bottom: 10px;
+}
+
+section > #soma{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.39);
+    color: white;
+    text-decoration: none;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function:ease ;
+    transition-delay: 0s;
+}
+
+section > #soma:hover{
+    transform: translateY(-5px);
+}
+
+section > #sub{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.39);
+    color: white;
+    text-decoration: none;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function:ease ;
+    transition-delay: 0s;
+}
+
+section > #sub:hover{
+    transform:translateY(-5px)
+}
+
+section > #mult{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.39);
+    color: white;
+    text-decoration: none;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function:ease ;
+    transition-delay: 0s;
+}
+
+section > #mult:hover{
+    transform:translateY(-5px)
+}
+
+section > #divi{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.39);
+    color: white;
+    text-decoration: none;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function:ease ;
+    transition-delay: 0s;
+}
+
+section > #divi:hover{
+    transform:translateY(-5px)
+}
+
+#res{
+    padding: 5px 5px 5px 325px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
