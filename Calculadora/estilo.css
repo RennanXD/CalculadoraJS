@@ -6,20 +6,26 @@ body{
 h1{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 section{
     font-family: sans-serif;
-    border-radius: 10px 10px;
-    /*box-shadow: 3px 6px 7px rgba(0, 0, 0, 0.384);*/
-    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 3px 6px 7px rgba(0, 0, 0, 0.384);
+    padding:15px;
+    width: 500px;
+    margin:auto;
     text-align: center;
+    background-color: white;
+    font-style: italic;
 }
 
 section > #caixa1{
     margin-bottom: 10px;
 }
+
+
 
 section > #soma{
     font-family: 'Courier New', Courier, monospace;
@@ -34,6 +40,7 @@ section > #soma{
     transition-delay: 0s;
 }
 
+/*Aqui e onde faz a interação com o botao para subir*/
 section > #soma:hover{
     transform: translateY(-5px);
 }
@@ -51,6 +58,7 @@ section > #sub{
     transition-delay: 0s;
 }
 
+/*Aqui e onde faz a interação com o botao para subir*/
 section > #sub:hover{
     transform:translateY(-5px)
 }
@@ -68,6 +76,7 @@ section > #mult{
     transition-delay: 0s;
 }
 
+/*Aqui e onde faz a interação com o botao para subir*/
 section > #mult:hover{
     transform:translateY(-5px)
 }
@@ -85,11 +94,14 @@ section > #divi{
     transition-delay: 0s;
 }
 
+/*Aqui e onde faz a interação com o botao para subir*/
 section > #divi:hover{
     transform:translateY(-5px)
 }
 
-#res{
-    padding: 5px 5px 5px 325px;
+section > #res{
+    margin-top: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-style: oblique;
 }
